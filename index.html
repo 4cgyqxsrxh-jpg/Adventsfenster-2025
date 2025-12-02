@@ -3,49 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Adventsfenster 2025 – PDF</title>
+  <title>PDF</title>
   <style>
-    body {
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+    html, body {
       margin: 0;
-      padding: 20px;
-      background: #fafafa;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
     }
-    h1 {
-      margin-top: 0;
-    }
-    .pdfframe {
+    iframe {
+      border: none;
       width: 100%;
-      height: calc(100vh - 140px);
-      border: 1px solid #ddd;
-      border-radius: 6px;
-    }
-    a {
-      color: #1a0dab;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+      height: 100%;
     }
   </style>
 </head>
 <body>
 
-  <h1>Adventsfenster 2025 – Flyer</h1>
-  <p>
-    Falls die PDF nicht automatisch angezeigt wird,
-    kannst du sie hier herunterladen:
-    <a href="adventsfenster2025_flyer2.pdf" download>
-      PDF herunterladen
-    </a>
-  </p>
-
-  <!-- PDF anzeigen -->
-  <iframe
-    class="pdfframe"
-    src="adventsfenster2025_flyer2.pdf"
-    title="Adventsfenster 2025 PDF"
-  ></iframe>
+  <iframe src="adventsfenster2025_flyer2.pdf"></iframe>
 
 </body>
 </html>
